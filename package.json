@@ -1,0 +1,31 @@
+{
+  "name": "portflio_showcase",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "baseline-browser-mapping": "^2.9.11",
+    "browserslist": "^4.28.1",
+    "caniuse-lite": "^1.0.30001761",
+    "css": "^3.0.0",
+    "electron-to-chromium": "^1.5.267",
+    "escalade": "^3.2.0",
+    "fraction.js": "^5.3.4",
+    "nanoid": "^3.3.11",
+    "node-releases": "^2.0.27",
+    "picocolors": "^1.1.1",
+    "postcss-value-parser": "^4.2.0",
+    "source-map-js": "^1.2.1",
+    "tailwind": "^2.4.1",
+    "update-browserslist-db": "^1.2.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.18"
+  }
+}

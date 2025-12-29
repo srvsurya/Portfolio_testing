@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body class="bg-black text-white">
+        <nav class="bg-black shadow-md">
+            <div class="max-w-7xl mx-auto flex justify-between items-center px-2 py-5">
+                <h1 class="text-2xl font-bold text-red-600">
+                    <a href="index.html">My Portfolio</a>
+                </h1>
+                <div class="flex gap-10">
+                    <h1 class="text-1.3xl text-white-300">
+                        <a href="./work.html">Work</a></h1>
+                    <h1 class="text-1.3xl text-white-300">
+                        <a href="./certifications.html">Certifications</a></h1>
+                    <h1 class="text-1.3xl text-white-300">
+                        <a href="./contact.html">Contact</a></h1>
+                    <h1 class="text-1.3xl text-white-300">
+                        <a href="./enquiry.html">Enquiry</a></h1>
+                    <h1 class="text-1.3xl text-white-300">
+                        <a href="./about.html">About Me</a></h1>
+
+                </div>
+            </div>
+        </nav>
+        <section class="bg-gradient-to-br from-black via-red-950 to-black h-screen">
+            <div class="flex justify-center items-center h-full">
+                <div class="bg-black rounded-2xl leading-10 py-6 px-8 max-w-4xl flex flex-col">
+                    <h1 class="text-red-600 font-bold text-center mb-4 text-2xl">Enquiry Form</h1>
+                    <p class="text-center">Please enter the following details</p>
+                    <div class="flex flex-col items-center justify-center py-4">
+                        <form class="flex flex-col gap-6">
+                            <input
+                                id="nameof"
+                                name="from_name"
+                                class="px-10 py-2 rounded-xl focus:outline-none text-black caret-black"
+                                type="text"
+                                placeholder="Enter your name"
+                            />
+
+                            <input
+                                id="emailInput"
+                                name="from_email"
+                                class="px-10 py-2 rounded-xl focus:outline-none caret-black text-black"
+                                type="text"
+                                placeholder="Enter your email address"
+                            />
+
+                            <textarea
+                            name="message"
+                                class="leading-normal rounded-xl w-[400px] h-[140px] text-black px-10 py-6 bg-white focus:outline-none"
+                                placeholder="Please enter your message"
+                            ></textarea>
+
+                            <p id="errorMsg" class="text-red-600"></p>
+
+                            <button
+                                id="submitBtn"
+                                type="submit"
+                                class="rounded-xl bg-red-600 text-white py-2"
+                            >
+                                Submit Form
+                            </button>
+                        </form>
+                    </div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script src="./script.js"></script>
+        
+
+    </body>
+
+</html>
