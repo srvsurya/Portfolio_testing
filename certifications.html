@@ -6,35 +6,36 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body class="bg-black text-white">
-        <nav class="bg-black shadow-md">
-            <div class="max-w-7xl mx-auto flex justify-between items-center px-2 py-5">
+        <nav class="bg-black shadow-md sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center px-2 py-5 gap-5">
                 <h1 class="text-2xl font-bold text-red-600">
                     <a href="index.html">My Portfolio</a>
                 </h1>
-                <div class="flex gap-10">
-                    <h1 class="text-1.3xl text-white-300">
+                <div class="flex flex-row md:flex-row gap-4 md:gap-10">
+                    <h1 class="text-1.3xl text-white-300 hover:text-red-600">
                         <a href="./work.html">Work</a></h1>
-                    <h1 class="text-1.3xl text-white-300">
+                    <h1 class="text-1.3xl text-white-300 hover:text-red-600">
                         <a href="./certifications.html">Certifications</a></h1>
-                    <h1 class="text-1.3xl text-white-300">
+                    <h1 class="text-1.3xl text-white-300 hover:text-red-600">
                         <a href="./contact.html">Contact</a></h1>
-                    <h1 class="text-1.3xl text-white-300">
+                    <h1 class="text-1.3xl text-white-300 hover:text-red-600">
                         <a href="./enquiry.html">Enquiry</a></h1>
-                    <h1 class="text-1.3xl text-white-300">
+                    <h1 class="text-1.3xl text-white-300 hover:text-red-600">
                         <a href="./about.html">About Me</a></h1>
 
                 </div>
             </div>
         </nav>
-        <section class="bg-gradient-to-br from-black via-red-950 to-black text-white">
-            <div class="flex flex-col gap-12"
+        <section class="bg-gradient-to-br from-black via-red-950 to-black text-white min-h-screen">
+            <div class="flex flex-col gap-12">
                 <div class="flex justify-center">
-                   <div class="max-w-4xl mx-auto px-6 bg-black rounded-2xl shadow-lg p-6 text-white mt-6">
+                   <div class="max-w-4xl mx-auto px-6 bg-black md:rounded-2xl shadow-lg p-6 text-white mt-6">
                         <h1 class="text-2xl font-bold mb-4 text-red-6">Certifications</h1>
                         <p class="text-white text-1xl">Here's a list of relevant IT mini-projects and certificates I've earned over the years.</p>
                     </div>
-                    <div class="max-w-4xl mx-auto px-6 bg-black rounded-2xl shadow-lg p-6 text-white mt-6">
-                        <div class="flex py-5 px-3 gap-12">
+                </div>
+                    <div class="max-w-4xl mx-auto px-6 bg-black md:rounded-2xl shadow-lg p-6 text-white mt-6">
+                        <div class="flex flex-col md:flex-row py-5 px-3 gap-12">
                             <div class="flex flex-col">
                                 <h2 class="text-red-600 text-2xl mt-7">Google Data Analytics Certificate </h2>
                                 <p class="base-text py-4">A professional certification program that includes 8 courses:<br>
@@ -57,61 +58,69 @@
                                     Capstone: Complete a Case
                                     Study</p>
                             </div>
-                            <img class="mt-3 max-w-[450] py-4 " src="./images/google.png" alt="google">
+                            <img class="mt-3 max-w-[450px] w-full py-4 " src="./images/google.png" alt="google">
                         </div>
                     </div>
-                    <div class="max-w-4xl mx-auto px-6 bg-black rounded-2xl shadow-lg p-6 text-white mt-6">
-                        <div class="flex py-5 px-3 gap-12">
+                    <div class="max-w-4xl mx-auto px-6 bg-black md:rounded-2xl shadow-lg p-6 text-white mt-6">
+                        <div class="flex flex-col md:flex-row py-5 px-3 gap-12">
                             <div class="flex flex-col">
                                 <h2 class="text-red-600 text-2xl mt-7">Predicting the Weather with Artificial Neural Networks</h2>
                                 <p class="base-text py-4">Used Jupyer+Python mainly.<br>
                                 Loaded a pre-built data set from Australian weather stations, processed the data to make it compatible with a neural network. Split the data into training and testing sets and then finally trained the network to make optimized predictions.</p>
                             </div>
-                            <img class="mt-3 max-w-[450] py-4 " src="./images/weather.png" alt="google">
+                            <img class="mt-3 max-w-[450px] w-full py-4 " src="./images/weather.png" alt="google">
                         </div>
                     </div>
-                    <div class="max-w-4xl mx-auto px-6 bg-black rounded-2xl shadow-lg p-6 text-white mt-6">
-                        <div class="flex py-5 px-3 gap-12">
+                    <div class="max-w-4xl mx-auto px-6 bg-black md:rounded-2xl shadow-lg p-6 text-white mt-6">
+                        <div class="flex flex-col md:flex-row py-5 px-3 gap-12">
                             <div class="flex flex-col">
                                 <h2 class="text-red-600 text-2xl mt-7">ETL and Data Pipelines with Shell, Airflow and Kafka</h2>
                                 <p class="base-text py-4">Understood basic and foundation data engineering concepts like ETL and ELT. <br>
                                 For the project on this course, I've implemented a working ETL workflow through bash and Python functions.</p>
                             </div>
-                            <img class="mt-3 max-w-[450] py-4 " src="./images/data_eng.png" alt="google">
+                            <img class="mt-3 max-w-[450px] w-full py-4 " src="./images/data_eng.png" alt="google">
                         </div>
                     </div>
-                    <div class="max-w-4xl mx-auto px-6 bg-black rounded-2xl shadow-lg p-6 text-white mt-6">
-                        <div class="flex py-5 px-3 gap-12">
+                    <div class="max-w-4xl mx-auto px-6 bg-black md:rounded-2xl shadow-lg p-6 text-white mt-6">
+                        <div class="flex flex-col md:flex-row py-5 px-3 gap-12">
                             <div class="flex flex-col">
                                 <h2 class="text-red-600 text-2xl mt-7">Python for Data Science, AI & Development</h2>
                                 <p class="base-text py-4">Learnt Python basics. Gained comprehensive understanding of data structures, loops, functions, exception handling etc.<br>
                                 For the project on this course, I've accessed and extracted web-based data by working with REST APIs using requests and performing webscraping using Beautiful Soup.</p>
                             </div>
-                            <img class="mt-3 max-w-[450] py-4 " src="./images/ibm.png" alt="google">
+                            <img class="mt-3 max-w-[450px] w-full py-4 " src="./images/ibm.png" alt="google">
                         </div>
                     </div>
-                    <div class="max-w-4xl mx-auto px-6 bg-black rounded-2xl shadow-lg p-6 text-white mt-6">
-                        <div class="flex py-5 px-3 gap-12">
+                    <div class="max-w-4xl mx-auto px-6 bg-black md:rounded-2xl shadow-lg p-6 text-white mt-6">
+                        <div class="flex flex-col md:flex-row py-5 px-3 gap-12">
                             <div class="flex flex-col">
                                 <h2 class="text-red-500 text-2xl mt-7">Unattended Baggage Detection using YOLOv3</h2>
                                 <p class="base-text py-4">Final Year IEEE-magazine published project. <br>
                                 As a team of three, we built our own custom data test. 2000 pictures of each baggage category, labelled it manually using LabelImg and used it as training and validation data.
                                 The model had an accuracy of roughly 70%.</p>
                                 <a
+                                    href="https://www.ijltes.com/wp-content/uploads/2020/08/2.pdf"
+                                    target="_blank"
+                                    class="bg-red-600 hidden md:block text-white px-6 py-4 rounded-2xl inline-block text-center">
+                                    View the official publication
+                                </a>
+                            
+                            </div>
+                            <img class="mt-3 max-w-[450px] w-full py-4 " src="./images/final_year.png" alt="google">
+                            <a
                                 href="https://www.ijltes.com/wp-content/uploads/2020/08/2.pdf"
                                 target="_blank"
-                                class="bg-red-600 text-white px-6 py-4 rounded-2xl mt-4 inline-block text-center">
+                                class="bg-red-600 block md:hidden text-white px-6 py-4 rounded-2xl inline-block text-center">
                                 View the official publication
-                                </a>
-
-                            </div>
-                            <img class="mt-3 max-w-[450] py-4 " src="./images/final_year.png" alt="google">
+                            </a>
                         </div>
                     </div>
                     
 
                    
                 </div>
+            </div>
+            
 
         </section>
         <script src="./script.js"></script>
